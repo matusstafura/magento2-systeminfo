@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/system_file.xsd">
+    <system>
+        <section id="matusstafura" translate="label" sortOrder="900" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>Dev Tools</label>
+            <tab>advanced</tab>
+            <resource>Magento_Config::config</resource>
+            <group id="systeminfo" translate="label" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>System Info</label>
+                <field id="info_block" translate="label" type="label" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>System Details</label>
+                    <frontend_model>MatusStafura\SystemInfo\Block\Adminhtml\SystemInfo</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
