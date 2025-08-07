@@ -13,22 +13,11 @@ This Magento 2 module provides detailed system information useful for developers
 
 ## 📦 Installation
 
-### 📦 Option 1: Manual installation (recommended for local dev)
+### 📦 Option 1: Installation via Composer (Packagist)
 
 ```bash
-mkdir -p app/code/MatusStafura/SystemInfo
-git clone https://github.com/matusstafura/matusstafura-magento2-systeminfo.git app/code/MatusStafura/SystemInfo
+composer require --dev matusstafura/magento2-systeminfo
 ```
-
-Then enable the module:
-
-```bash
-php bin/magento module:enable MatusStafura_SystemInfo
-php bin/magento setup:upgrade
-php bin/magento cache:flush
-```
-
----
 
 ### 🔧 Option 2: Manual installation (recommended for local dev)
 
